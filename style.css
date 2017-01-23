@@ -62,3 +62,20 @@ table {
   background: url(images/background.jpg) no-repeat center fixed;
   background-position: top;
 }
+
+.rover {
+  /*border: solid 1px red;*/
+}
+
+.rover-image {  
+  float: left;
+}
+
+.rover-image img {
+  border-radius: 50%;
+}
+
+.rover-text {
+  
+  float: left;
+}
