@@ -64,11 +64,17 @@ table {
 }
 
 .rover {
-  /*border: solid 1px red;*/
+  display: flex; 
+  margin: 0 auto;
+  width: 90%;
+  padding: 20px;
+  border: solid 1px red;
+
 }
 
 .rover-image {  
   float: left;
+  border: solid 1px orange;
 }
 
 .rover-image img {
@@ -76,6 +82,13 @@ table {
 }
 
 .rover-text {
+  text-align: center;
+  padding: 50px;
+  /*display: flex;
+  justify-content: center;
+  flex-direction: column;*/
   
   float: left;
+  border: solid 1px green;
 }
+
