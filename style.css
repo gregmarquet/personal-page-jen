@@ -106,5 +106,26 @@ h1 {
   background: url(images/background.jpg) no-repeat center fixed;
 }
 
-
+/* ================================= 
+          Skills
+==================================== */
+h5 {
+  margin-top: 5px;
+}
+.main-skills-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid violet;
+}
+.main-skills {
+  text-align: center;
+  padding: 15px;
+  margin: 0 30px;
+  border: 2px solid cyan;
+}
+.main-skills img {
+  height: 90px;
+  width: 90px;
+  border: 2px solid pink;
+}
 
