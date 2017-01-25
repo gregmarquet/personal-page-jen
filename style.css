@@ -61,12 +61,20 @@ h1 {
   margin: 0 auto;
 }
 
+/* ================================= 
+            Landing
+==================================== */
+
 .landing {
   height: 100vh;
   width: 100%;
   background: url(images/background.jpg) no-repeat center fixed;
   background-position: top;
 }
+
+/* ================================= 
+              Rover
+==================================== */
 
 .rover {
   display: flex; 
@@ -155,3 +163,45 @@ h5 {
   /*border: 2px solid pink;*/
 }
 
+/* ================================= 
+              Blog
+==================================== */
+
+.blog {
+  display: flex; 
+  margin: 0 auto;
+  width: 90%;
+  padding: 20px;
+  border: solid 1px red;
+
+}
+
+.blog-image {  
+  float: left;
+  height: 300px;
+  border: solid 1px orange;
+}
+
+.blog-image img {
+  margin-top: 50px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.blog-text {
+  text-align: center;
+  padding: 50px;
+  line-height: 1.4em;
+  height: 400px;
+  float: left;
+  border: solid 1px green;
+}
+
+.blog-text h2 {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+.blog-text p {
+  margin-bottom: 10px;
+}
