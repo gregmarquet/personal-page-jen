@@ -112,6 +112,9 @@ h1 {
 h5 {
   margin-top: 5px;
 }
+
+/* Main Skills*/
+
 .main-skills-container {
   display: flex;
   justify-content: center;
@@ -124,14 +127,31 @@ h5 {
   border: 2px solid cyan;
 }
 .main-skills img {
-  height: 90px;
-  width: 90px;
+  height: 100px;
+  width: 100px;
   border: 2px solid pink;
 }
 
+/* Other Skills */
 
+.other-skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid green;
+
+}
+.other-skills {
+  text-align: center;
+  margin:10px 0;
+  width: 25%;
+  border: 2px solid cyan;
+}
 .other-skills img{
-  height: 75px;
-  width: 75px;
+  height: 85px;
+  width: 85px;
+  border: 2px solid pink;
 }
 
