@@ -173,7 +173,6 @@ h5 {
   width: 90%;
   padding: 20px;
   border: solid 1px red;
-
 }
 
 .blog-image {  
@@ -205,3 +204,46 @@ h5 {
 .blog-text p {
   margin-bottom: 10px;
 }
+
+/* ================================= 
+              Bio
+==================================== */
+
+.bio {
+  display: flex; 
+  margin: 0 auto;
+  width: 90%;
+  padding: 20px;
+  border: solid 1px red;
+}
+
+.bio-image {  
+  float: left;
+  height: 300px;
+  border: solid 1px orange;
+}
+
+.bio-image img {
+  margin-top: 50px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.bio-text {
+  text-align: center;
+  padding: 50px;
+  line-height: 1.4em;
+  /*height: 400px;*/
+  float: left;
+  border: solid 1px green;
+}
+
+.bio-text h2 {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+.bio-text p {
+  margin-bottom: 10px;
+}
+
