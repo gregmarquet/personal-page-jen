@@ -78,7 +78,14 @@ h1 {
   font-size: 2em;
 }
 .title-container h1{
+  font-family: 'Flamenco', cursive;
+  font-weight: 300;
   margin-bottom: 10px;
+}
+.title-container h3{
+  font-family: 'Chaparral Pro', 'Times New Roman';
+  /*font-weight: 300;*/
+  font-style: italic;
 }
 
 /* ================================= 
