@@ -191,7 +191,6 @@ h5 {
   text-align: center;
   padding: 50px;
   line-height: 1.4em;
-  height: 400px;
   float: left;
   border: solid 1px green;
 }
@@ -244,5 +243,32 @@ h5 {
 }
 .bio-text p {
   margin-bottom: 10px;
+}
+
+/* ================================= 
+              Footer
+==================================== */
+
+.footer {
+  /*height: 100px;*/
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 10px;
+  border: 1px solid cyan;
+}
+.social {
+  border: 1px solid maroon;
+}
+.social img {
+  height: 40px;
+  margin: 0 10px; 
+}
+.credit-container {
+  float: right;
+  margin: 5px; 
 }
 
