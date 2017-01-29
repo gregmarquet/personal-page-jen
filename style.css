@@ -93,11 +93,11 @@ h1 {
 ==================================== */
 
 .rover {
-  display: flex; 
-  margin: 0 auto;
-  width: 90%;
-  padding: 20px;
+  display: flex;
+  width: 70%;
+  /*padding: 20px;*/
   border: solid 1px red;
+  margin: 25px auto;
 
 }
 
@@ -112,19 +112,44 @@ h1 {
 }
 
 .rover-image img {
+  height: 110px;
   border-radius: 50%;
+  margin-top: 40px;
   margin-bottom: 15px;
 }
 
 .rover-text {
   text-align: center;
   padding: 50px;
-  /*display: flex;
-  justify-content: center;
-  flex-direction: column;*/
-  
   float: left;
   border: solid 1px green;
+}
+
+.rover-text button {
+  font-family: 'Chaparral Pro', 'Times New Roman';
+  font-size: 1em;
+  /*padding: 5px;
+  border-radius: 10px;
+  background-color: #fff;*/
+  margin-top: 15px;
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  font-family: Arial;
+  color: #000000;
+  /*font-size: 20px;*/
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 1px;
+  text-decoration: none;
+}
+
+.rover-text button:hover {
+  /*background: #c5cdd1;*/
+  /*background: #DCE3E9;*/
+  background: #F2F1F6;
+
+  text-decoration: none;
 }
 
 .pre-block {
