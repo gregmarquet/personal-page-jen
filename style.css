@@ -173,17 +173,19 @@ h5 {
 .main-skills-container {
   display: flex;
   justify-content: center;
+  font-family: 'PT Mono', monospace;
+  font-size: 1.2em;
   /*border: 2px solid violet;*/
 }
 .main-skills {
   text-align: center;
   padding: 15px;
-  margin: 0 30px;
+  margin: 20px 30px 5px;
   /*border: 2px solid cyan;*/
 }
 .main-skills img {
-  height: 100px;
-  width: 100px;
+  height: 115px;
+  width: 115px;
   /*border: 2px solid pink;*/
 }
 
@@ -194,7 +196,8 @@ h5 {
   justify-content: center;
   flex-wrap: wrap;
   width: 70%;
-  margin: 0 auto;
+  margin: 0 auto 40px;
+  font-family: 'Chaparral Pro', 'Times New Roman';
   /*border: 2px solid green;*/
 
 }
@@ -205,8 +208,8 @@ h5 {
   /*border: 2px solid cyan;*/
 }
 .other-skills img{
-  height: 85px;
-  width: 85px;
+  height: 95px;
+  width: 95px;
   /*border: 2px solid pink;*/
 }
 
