@@ -121,29 +121,27 @@ h1 {
 .rover-text {
   font-family: 'Chaparral Pro', 'Times New Roman';
   text-align: center;
-  font-size: 1.3em;
-  line-height: 1.40em;
+  font-size: 1.35em;
+  line-height: 1.4em;
   padding: 50px;
   margin-left: 40px;
   float: left;
   /*border: solid 1px green;*/
 }
 .rover-text p.small-text {
-  margin-top: 20px;
+  margin-top: 25px;
   font-size: 0.8em;
+  line-height: 1.2em;
 }
 
 .rover-text button {
   font-family: 'Chaparral Pro', 'Times New Roman';
-  font-size: 0.9em;
-  margin-top: 40px;
-  -webkit-border-radius: 17;
-  -moz-border-radius: 17;
-  border-radius: 17px;
+  font-size: 1.1em;
+  margin-top: 50px;
   color: #486470;
   background: #fff;
   padding: 10px 20px 10px 20px;
-  border: solid #000 1px;
+  border: none;
   text-decoration: none;
 }
 
