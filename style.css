@@ -95,7 +95,6 @@ h1 {
 .rover {
   display: flex;
   width: 80%;
-  /*padding: 20px;*/
   border: solid 1px red;
   margin: 50px auto;
 
@@ -136,16 +135,12 @@ h1 {
 .rover-text button {
   font-family: 'Chaparral Pro', 'Times New Roman';
   font-size: 0.9em;
-  /*padding: 5px;
-  border-radius: 10px;
-  background-color: #fff;*/
   margin-top: 40px;
   -webkit-border-radius: 17;
   -moz-border-radius: 17;
   border-radius: 17px;
   font-family: Arial;
   color: #000;
-  /*font-size: 20px;*/
   background: #fff;
   padding: 10px 20px 10px 20px;
   border: solid #000 1px;
@@ -153,10 +148,7 @@ h1 {
 }
 
 .rover-text button:hover {
-  /*background: #c5cdd1;*/
-  /*background: #DCE3E9;*/
   background: #F2F1F6;
-
   text-decoration: none;
 }
 
@@ -164,7 +156,7 @@ h1 {
   display: flex; 
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 300px;
   width: 100%;
   background: url(images/background.jpg) no-repeat center fixed;
 }
