@@ -152,6 +152,10 @@ h1 {
   text-decoration: none;
 }
 
+/* ================================= 
+          Pre-blocks
+==================================== */
+
 .pre-block {
   display: flex; 
   justify-content: center;
@@ -159,6 +163,11 @@ h1 {
   height: 300px;
   width: 100%;
   background: url(images/background.jpg) no-repeat center fixed;
+  font-family: 'Chaparral Pro', 'Times New Roman';
+}
+
+.pre-block h1 {
+  font-size: 3.5em;
 }
 
 /* ================================= 
