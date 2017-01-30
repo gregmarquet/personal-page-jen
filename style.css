@@ -95,7 +95,7 @@ h1 {
 .rover {
   display: flex;
   width: 80%;
-  border: solid 1px red;
+  /*border: solid 1px red;*/
   margin: 50px auto;
 
 }
@@ -103,7 +103,7 @@ h1 {
 .rover-image {  
   float: left;
   text-align: center;
-  border: solid 1px orange;
+  /*border: solid 1px orange;*/
   padding: 15px;
 }
 .rover-image h4{  
@@ -119,13 +119,14 @@ h1 {
 }
 
 .rover-text {
+  font-family: 'Chaparral Pro', 'Times New Roman';
   text-align: center;
   font-size: 1.3em;
   line-height: 1.40em;
   padding: 50px;
   margin-left: 40px;
   float: left;
-  border: solid 1px green;
+  /*border: solid 1px green;*/
 }
 .rover-text p.small-text {
   margin-top: 20px;
@@ -139,8 +140,7 @@ h1 {
   -webkit-border-radius: 17;
   -moz-border-radius: 17;
   border-radius: 17px;
-  font-family: Arial;
-  color: #000;
+  color: #486470;
   background: #fff;
   padding: 10px 20px 10px 20px;
   border: solid #000 1px;
@@ -237,18 +237,21 @@ h5 {
 .blog-image {  
   float: left;
   height: 300px;
+  width: 50%;
   border: solid 1px orange;
 }
 
 .blog-image img {
   margin-top: 50px;
-  height: 200px;
+  height: 250px;
   border-radius: 15px;
 }
 
 .blog-text {
   text-align: center;
+  font-family: 'Chaparral Pro', 'Times New Roman';
   padding: 50px;
+  width: 50%;
   line-height: 1.4em;
   float: left;
   border: solid 1px green;
