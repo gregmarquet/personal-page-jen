@@ -228,19 +228,21 @@ h5 {
   display: flex; 
   margin: 0 auto;
   width: 90%;
-  padding: 20px;
-  border: solid 1px red;
+  /*padding: 20px;*/
+  /*border: solid 1px red;*/
 }
 
 .blog-image {  
   float: left;
+  margin-top: 50px;
   height: 300px;
-  width: 50%;
-  border: solid 1px orange;
+  width: 45%;
+  /*border: solid 1px orange;*/
 }
 
 .blog-image img {
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
   height: 250px;
   border-radius: 15px;
 }
@@ -248,11 +250,12 @@ h5 {
 .blog-text {
   text-align: center;
   font-family: 'Chaparral Pro', 'Times New Roman';
-  padding: 50px;
-  width: 50%;
-  line-height: 1.4em;
+  padding: 50px 50px 0;
+  width: 55%;
+  font-size: 1.2em;
+  line-height: 1.3em;
   float: left;
-  border: solid 1px green;
+  /*border: solid 1px green;*/
 }
 
 .blog-text h2 {
@@ -262,6 +265,24 @@ h5 {
 }
 .blog-text p {
   margin-bottom: 10px;
+}
+.blog-text span {
+  color: #008CFA;
+}
+.blog-text button {
+  font-family: 'Chaparral Pro', 'Times New Roman';
+  font-size: 1.2em;
+  color: #486470;
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  text-decoration: none;
+}
+
+.blog-text button:hover {
+  background: #F2F1F6;
+  text-decoration: none;
 }
 
 /* ================================= 
