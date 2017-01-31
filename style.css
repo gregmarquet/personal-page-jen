@@ -291,39 +291,55 @@ h5 {
 
 .bio {
   display: flex; 
-  margin: 0 auto;
+  margin: 40px auto 0;
   width: 90%;
   padding: 20px;
-  border: solid 1px red;
+  /*border: solid 1px red;*/
 }
 
 .bio-image {  
   float: left;
   height: 300px;
-  border: solid 1px orange;
+  /*border: solid 1px orange;*/
 }
 
-.bio-image img {
-  margin-top: 50px;
+/*.bio-image img {
+  margin-top: 100px;
   height: 300px;
   border-radius: 15px;
-}
+}*/
 
 .bio-text {
-  text-align: center;
+  font-family: 'Chaparral Pro', 'Times New Roman';
   padding: 50px;
   line-height: 1.4em;
   float: left;
-  border: solid 1px green;
+  /*border: solid 1px green;*/
 }
 
-.bio-text h2 {
-  font-size: 1.5em;
-  line-height: 1.2em;
-  margin-bottom: 10px;
+.firstcharacter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
 }
+
 .bio-text p {
-  margin-bottom: 10px;
+  font-size: 1.3em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.bio-text p:nth-child(4) {
+  margin-bottom: 50px;
+}
+.bio-text .quote {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.2em;
 }
 
 /* ================================= 
