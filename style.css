@@ -51,10 +51,13 @@ table {
 /* ================================= 
           End of CSS Reset
 ==================================== */
-
-* {
+html {
   box-sizing: border-box;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 
 h1 {
   font-size: 3em;
@@ -365,7 +368,7 @@ h5 {
   margin: 0 10px; 
 }
 .credit-container {
-  float: right;
+  text-align: right;
   margin: 5px; 
 }
 
