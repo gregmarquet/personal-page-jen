@@ -232,7 +232,7 @@ h5 {
   margin: 0 auto;
   width: 90%;
   /*padding: 20px;*/
-  border: solid 1px red;
+  /*border: solid 1px red;*/
 }
 
 .blog-image {  
@@ -240,7 +240,7 @@ h5 {
   margin-top: 50px;
   height: 300px;
   width: 45%;
-  border: solid 1px orange;
+  /*border: solid 1px orange;*/
 }
 
 .blog-image img {
@@ -258,7 +258,7 @@ h5 {
   font-size: 1.2em;
   line-height: 1.3em;
   float: left;
-  border: solid 1px green;
+  /*border: solid 1px green;*/
 }
 
 .blog-text h2 {
@@ -380,6 +380,25 @@ h5 {
 @media (max-width: 1170px) {
   .blog {
     width: 100%;
+  } 
+}
+
+@media (max-width: 1060px) {
+  .blog {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-image {
+    width: 100%; 
+    text-align: center;
+    margin: 10px 0 5px; 
+    
+  }
+
+  .blog-text {
+    width: 65%;
+    padding: 0;
   }
   
 }
