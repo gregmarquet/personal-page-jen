@@ -402,3 +402,32 @@ h5 {
   }
   
 }
+
+@media (max-width: 960px) {
+  .rover {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .rover-image {
+    /*width: 100%; */
+    text-align: center;
+    margin: 10px 0 20px;   
+  }
+  .rover-image img {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+
+  .rover-text {
+    width: 65%;
+    margin-left: 0;
+    padding: 0;
+  }
+  .rover-text button {
+    margin-top: 40px;
+  }
+  
+}
+
