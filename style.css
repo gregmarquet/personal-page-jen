@@ -431,3 +431,9 @@ h5 {
   
 }
 
+@media (max-width: 860px) {
+  .other-skills-container {
+    width: 100%;
+  }
+}
+
