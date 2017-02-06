@@ -437,3 +437,20 @@ h5 {
   }
 }
 
+@media (max-width: 575px) {
+  .main-skills img {
+    height: 100px;
+    width: 100px;
+  }
+  .other-skills-container {
+    margin: 0 auto 40px;
+  }
+  .other-skills {
+    margin:10px 0;
+    width: 30%;
+  }
+  .other-skills img{
+    height: 80px;
+    width: 80px;
+  }
+}
