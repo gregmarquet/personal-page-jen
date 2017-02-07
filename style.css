@@ -392,10 +392,11 @@ h5 {
   .blog-image {
     width: 100%; 
     text-align: center;
-    margin: 10px 0 5px; 
-    
+    margin: 10px 0 5px;  
   }
-
+  .blog-image img {
+    margin-left: 0;
+  }
   .blog-text {
     width: 65%;
     padding: 0;
