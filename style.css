@@ -412,7 +412,6 @@ h5 {
     margin: 0 auto;
   }
   .rover-image {
-    /*width: 100%; */
     text-align: center;
     margin: 10px 0 20px;   
   }
@@ -429,6 +428,12 @@ h5 {
   .rover-text button {
     margin-top: 40px;
   }
+
+  .credit-container {
+  text-align: center;
+  font-size: 0.9em;
+  margin: 10px auto; 
+}
   
 }
 
