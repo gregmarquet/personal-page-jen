@@ -459,4 +459,8 @@ h5 {
     height: 80px;
     width: 80px;
   }
+
+  .bio {
+    padding: 0;
+  }
 }
