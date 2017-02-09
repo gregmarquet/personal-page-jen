@@ -469,4 +469,14 @@ h5 {
   .title-container {
     font-size: 1.6em;
   }
+
+  .blog-image {
+    height: 250px;
+  }
+  .blog-image img {
+    height: 200px;
+  }
+  .blog-text {
+    width: 70%;
+  }
 }
