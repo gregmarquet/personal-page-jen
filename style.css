@@ -464,3 +464,9 @@ h5 {
     padding: 0;
   }
 }
+
+@media (max-width: 480px) {
+  .title-container {
+    font-size: 1.6em;
+  }
+}
