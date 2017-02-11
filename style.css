@@ -488,10 +488,14 @@ h5 {
 
   .main-skills-container {
     font-size: 1em;
+    margin-bottom: 5px;
   }
   .main-skills {
-    margin: 20px 10px 5px;
+    margin: 20px 15px 15px;
     padding: 5px 0;
+  }
+  .main-skills h5{
+    margin-top: 10px;
   }
   .main-skills img {
     height: 75px;
@@ -501,6 +505,7 @@ h5 {
     margin: 0 auto 40px;
   }
   .other-skills {
+    width: 115px;
     font-size: 0.8em;
     margin:10px 0;
   }
