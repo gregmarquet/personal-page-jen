@@ -480,3 +480,10 @@ h5 {
     width: 70%;
   }
 }
+
+@media (max-width: 414px) {
+  .title-container {
+    font-size: 1.4em;
+  }
+
+}
