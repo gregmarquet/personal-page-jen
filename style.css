@@ -521,3 +521,15 @@ h5 {
   }
   
 }
+
+@media (max-width: 320px) {
+  .blog-image {
+    height: 200px;
+  }
+  .blog-image img {
+    height: 165px;
+  }
+  .blog-text {
+    width: 80%;
+  }
+}
