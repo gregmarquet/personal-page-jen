@@ -523,6 +523,10 @@ h5 {
 }
 
 @media (max-width: 320px) {
+  .title-container {
+    font-size: 1.3em;
+  }
+
   .blog-image {
     height: 200px;
   }
