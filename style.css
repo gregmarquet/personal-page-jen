@@ -134,6 +134,7 @@ h1 {
   background: #fff;
   padding: 10px 20px 10px 20px;
   border: none;
+  outline: none;
   text-decoration: none;
 }
 .rover-text button:hover {
@@ -252,6 +253,7 @@ h5 {
   background: #fff;
   padding: 10px 20px 10px 20px;
   border: none;
+  outline: none;
   text-decoration: none;
 }
 .blog-text button:hover {
