@@ -57,8 +57,6 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-
 h1 {
   font-size: 3em;
   margin: 0 auto;
@@ -87,7 +85,6 @@ h1 {
 }
 .title-container h3{
   font-family: 'Chaparral Pro', 'Times New Roman';
-  /*font-weight: 300;*/
   font-style: italic;
 }
 
@@ -98,29 +95,23 @@ h1 {
 .rover {
   display: flex;
   width: 80%;
-  /*border: solid 1px red;*/
   margin: 50px auto;
-
 }
-
 .rover-image {  
   float: left;
   text-align: center;
-  /*border: solid 1px orange;*/
   padding: 15px;
 }
 .rover-image h4{  
   font-size: 1.6em;
   font-family: 'PT Mono', monospace;
 }
-
 .rover-image img {
   height: 175px;
   border-radius: 50%;
   margin-top: 40px;
   margin-bottom: 45px;
 }
-
 .rover-text {
   font-family: 'Chaparral Pro', 'Times New Roman';
   text-align: center;
@@ -129,14 +120,12 @@ h1 {
   padding: 50px;
   margin-left: 40px;
   float: left;
-  /*border: solid 1px green;*/
 }
 .rover-text p.small-text {
   margin-top: 25px;
   font-size: 0.8em;
   line-height: 1.2em;
 }
-
 .rover-text button {
   font-family: 'Chaparral Pro', 'Times New Roman';
   font-size: 1.1em;
@@ -147,7 +136,6 @@ h1 {
   border: none;
   text-decoration: none;
 }
-
 .rover-text button:hover {
   background: #F2F1F6;
   text-decoration: none;
@@ -166,7 +154,6 @@ h1 {
   background: url(images/background.jpg) no-repeat center fixed;
   font-family: 'Chaparral Pro', 'Times New Roman';
 }
-
 .pre-block h1 {
   font-size: 3.5em;
 }
@@ -185,18 +172,15 @@ h5 {
   justify-content: center;
   font-family: 'PT Mono', monospace;
   font-size: 1.2em;
-  /*border: 2px solid violet;*/
 }
 .main-skills {
   text-align: center;
   padding: 15px;
   margin: 20px 30px 5px;
-  /*border: 2px solid cyan;*/
 }
 .main-skills img {
   height: 115px;
   width: 115px;
-  /*border: 2px solid pink;*/
 }
 
 /* Other Skills */
@@ -208,19 +192,15 @@ h5 {
   width: 70%;
   margin: 0 auto 40px;
   font-family: 'Chaparral Pro', 'Times New Roman';
-  /*border: 2px solid green;*/
-
 }
 .other-skills {
   text-align: center;
   margin:10px 0;
   width: 25%;
-  /*border: 2px solid cyan;*/
 }
 .other-skills img{
   height: 95px;
   width: 95px;
-  /*border: 2px solid pink;*/
 }
 
 /* ================================= 
@@ -231,25 +211,19 @@ h5 {
   display: flex; 
   margin: 0 auto;
   width: 90%;
-  /*padding: 20px;*/
-  /*border: solid 1px red;*/
 }
-
 .blog-image {  
   float: left;
   margin-top: 50px;
   height: 300px;
   width: 45%;
-  /*border: solid 1px orange;*/
 }
-
 .blog-image img {
   margin-top: 20px;
   margin-left: 20px;
   height: 250px;
   border-radius: 15px;
 }
-
 .blog-text {
   text-align: center;
   font-family: 'Chaparral Pro', 'Times New Roman';
@@ -258,9 +232,7 @@ h5 {
   font-size: 1.2em;
   line-height: 1.3em;
   float: left;
-  /*border: solid 1px green;*/
 }
-
 .blog-text h2 {
   font-size: 1.5em;
   line-height: 1.2em;
@@ -282,7 +254,6 @@ h5 {
   border: none;
   text-decoration: none;
 }
-
 .blog-text button:hover {
   background: #F2F1F6;
   text-decoration: none;
@@ -297,29 +268,17 @@ h5 {
   margin: 40px auto 0;
   width: 90%;
   padding: 20px;
-  /*border: solid 1px red;*/
 }
-
 .bio-image {  
   float: left;
   height: 300px;
-  /*border: solid 1px orange;*/
 }
-
-/*.bio-image img {
-  margin-top: 100px;
-  height: 300px;
-  border-radius: 15px;
-}*/
-
 .bio-text {
   font-family: 'Chaparral Pro', 'Times New Roman';
   padding: 50px;
   line-height: 1.4em;
   float: left;
-  /*border: solid 1px green;*/
 }
-
 .firstcharacter {
   color: #903;
   float: left;
@@ -330,7 +289,6 @@ h5 {
   padding-right: 8px;
   padding-left: 3px;
 }
-
 .bio-text p {
   font-size: 1.3em;
   text-align: left;
@@ -349,19 +307,11 @@ h5 {
               Footer
 ==================================== */
 
-.footer {
-  /*height: 100px;*/
-}
-
 .social-container {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 25px 0 10px;
-  /*border: 1px solid cyan;*/
-}
-.social {
-  /*border: 1px solid maroon;*/
 }
 .social img {
   height: 40px;
@@ -378,12 +328,16 @@ h5 {
 
 
 @media (max-width: 1170px) {
+
+  /* Blog */
   .blog {
     width: 100%;
   } 
 }
 
 @media (max-width: 1060px) {
+
+  /* Blog */
   .blog {
     flex-direction: column;
     justify-content: center;
@@ -405,6 +359,8 @@ h5 {
 }
 
 @media (max-width: 960px) {
+
+  /* Rover */
   .rover {
     flex-direction: column;
     justify-content: center;
@@ -419,7 +375,6 @@ h5 {
     margin-top: 25px;
     margin-bottom: 40px;
   }
-
   .rover-text {
     width: 65%;
     margin-left: 0;
@@ -428,7 +383,8 @@ h5 {
   .rover-text button {
     margin-top: 40px;
   }
-
+  
+  /* Footer */
   .credit-container {
   text-align: center;
   font-size: 0.9em;
@@ -438,12 +394,16 @@ h5 {
 }
 
 @media (max-width: 860px) {
+
+  /* Skills */
   .other-skills-container {
     width: 100%;
   }
 }
 
 @media (max-width: 575px) {
+
+  /* Skills */
   .main-skills img {
     height: 100px;
     width: 100px;
@@ -459,17 +419,20 @@ h5 {
     height: 80px;
     width: 80px;
   }
-
+  
+  /* Bio */
   .bio {
     padding: 0;
   }
 }
 
 @media (max-width: 480px) {
+  /* Landing */
   .title-container {
     font-size: 1.6em;
   }
-
+  
+  /* Blog */
   .blog-image {
     height: 250px;
   }
@@ -482,10 +445,13 @@ h5 {
 }
 
 @media (max-width: 414px) {
+
+  /* Landing */
   .title-container {
     font-size: 1.4em;
   }
-
+  
+  /* Skills */
   .main-skills-container {
     font-size: 1em;
     margin-bottom: 5px;
@@ -513,7 +479,8 @@ h5 {
     height: 55px;
     width: 55px;
   }
-
+  
+  /* Blog */
   .blog-text h2 {
     font-size: 1.4em;
     line-height: 1.2em;
@@ -523,14 +490,18 @@ h5 {
 }
 
 @media (max-width: 320px) {
+
+  /* Landing */
   .title-container {
     font-size: 1.3em;
   }
-
+  
+  /* Rover */
   .rover-text {
     width: 85%;
   }
-
+  
+  /* Skills */
   .main-skills img {
     height: 90px;
     width: 90px;
@@ -542,7 +513,8 @@ h5 {
   .other-skills {
     font-size: 0.9em;
   }
-
+  
+  /* Blog */
   .blog-image {
     height: 200px;
   }
@@ -552,11 +524,13 @@ h5 {
   .blog-text {
     width: 80%;
   }
-
+  
+  /* Bio */
   .bio-text {
     padding: 28px;
   }
-  
+   
+  /* Footer */
   .social img {
     height: 38px;
     margin: 0 8px;
