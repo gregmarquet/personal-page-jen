@@ -556,6 +556,13 @@ h5 {
   .bio-text {
     padding: 28px;
   }
-
+  
+  .social img {
+    height: 38px;
+    margin: 0 8px;
+  }
+  .credit-container {
+    font-size: 0.7em;
+  }
 
 }
