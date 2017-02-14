@@ -531,6 +531,18 @@ h5 {
     width: 85%;
   }
 
+  .main-skills img {
+    height: 90px;
+    width: 90px;
+  }
+  .other-skills img{
+    height: 70px;
+    width: 70px;
+  }
+  .other-skills {
+    font-size: 0.9em;
+  }
+
   .blog-image {
     height: 200px;
   }
@@ -544,4 +556,6 @@ h5 {
   .bio-text {
     padding: 28px;
   }
+
+
 }
