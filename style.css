@@ -527,6 +527,10 @@ h5 {
     font-size: 1.3em;
   }
 
+  .rover-text {
+    width: 85%;
+  }
+
   .blog-image {
     height: 200px;
   }
@@ -535,5 +539,9 @@ h5 {
   }
   .blog-text {
     width: 80%;
+  }
+
+  .bio-text {
+    padding: 28px;
   }
 }
