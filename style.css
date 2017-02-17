@@ -81,6 +81,7 @@ a {
 }
 .title-container {
   font-size: 2em;
+  margin-top: -140px;
 }
 .title-container h1{
   font-family: 'Flamenco', cursive;
