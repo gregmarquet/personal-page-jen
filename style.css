@@ -310,6 +310,12 @@ h5 {
   font-style: italic;
   text-align: center;
   font-size: 1.2em;
+  width: 65%;
+  margin: 40px auto 40px;
+}
+
+.bio-text .author {
+  margin-left: 15%;
 }
 
 /* ================================= 
