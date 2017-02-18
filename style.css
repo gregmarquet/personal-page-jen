@@ -159,9 +159,11 @@ a {
   width: 100%;
   background: url(images/background.jpg) no-repeat center fixed;
   font-family: 'Chaparral Pro', 'Times New Roman';
+  overflow: hidden;
 }
 .pre-block h1 {
   font-size: 3.5em;
+  margin-bottom: -100px;
 }
 
 /* ================================= 
