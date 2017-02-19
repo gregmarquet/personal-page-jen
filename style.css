@@ -105,7 +105,7 @@ a {
 .rover-image {  
   float: left;
   text-align: center;
-  padding: 15px;
+  padding: 5px;
 }
 .rover-image h4{  
   font-size: 1.6em;
@@ -114,8 +114,12 @@ a {
 .rover-image img {
   height: 175px;
   border-radius: 50%;
-  margin-top: 40px;
-  margin-bottom: 45px;
+  margin: 40px 10px 45px;
+}
+.rover-image img:hover {
+  height: 185px;
+  border-radius: 50%;
+  margin: 35px 5px 40px;
 }
 .rover-text {
   font-family: 'Chaparral Pro', 'Times New Roman';
