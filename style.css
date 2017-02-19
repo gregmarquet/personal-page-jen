@@ -439,6 +439,12 @@ h5 {
   }
 }
 
+@media (max-width: 650px) {
+  .bio-text .quote {
+    width: 100%;
+  }
+}
+
 @media (max-width: 575px) {
 
   /* Skills */
@@ -513,6 +519,10 @@ h5 {
     height: 75px;
     width: 75px;
   }
+  .main-skills img:hover {
+    height: 85px;
+    width: 85px;
+  }
   .other-skills-container {
     margin: 0 auto 40px;
   }
@@ -521,9 +531,13 @@ h5 {
     font-size: 0.8em;
     margin:10px 0;
   }
-  .other-skills img{
+  .other-skills img {
     height: 55px;
     width: 55px;
+  }
+  .other-skills img:hover {
+    height: 65px;
+    width: 65px;
   }
   
   /* Blog */
@@ -532,7 +546,6 @@ h5 {
     line-height: 1.2em;
     margin-bottom: 15px;
   }
-  
 }
 
 @media (max-width: 375px) {
