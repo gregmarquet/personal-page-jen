@@ -118,7 +118,6 @@ a {
 }
 .rover-image img:hover {
   height: 185px;
-  border-radius: 50%;
   margin: 35px 5px 40px;
 }
 .rover-text {
@@ -187,12 +186,18 @@ h5 {
 }
 .main-skills {
   text-align: center;
-  padding: 15px;
+  padding: 5px;
   margin: 20px 30px 5px;
 }
 .main-skills img {
   height: 115px;
   width: 115px;
+  margin: 10px;
+}
+.main-skills img:hover {
+  height: 125px;
+  width: 125px;
+  margin: 5px;
 }
 
 /* Other Skills */
