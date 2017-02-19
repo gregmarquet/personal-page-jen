@@ -215,9 +215,15 @@ h5 {
   margin:10px 0;
   width: 25%;
 }
-.other-skills img{
+.other-skills img {
   height: 95px;
   width: 95px;
+  margin: 5px;
+}
+.other-skills img:hover {
+  height: 105px;
+  width: 105px;
+  margin: 0px;
 }
 
 /* ================================= 
