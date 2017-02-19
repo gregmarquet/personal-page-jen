@@ -546,6 +546,11 @@ h5 {
     line-height: 1.2em;
     margin-bottom: 15px;
   }
+
+  /* Bio */
+  .bio-text .author {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 375px) {
