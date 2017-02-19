@@ -446,6 +446,10 @@ h5 {
     height: 100px;
     width: 100px;
   }
+  .main-skills img:hover {
+    height: 110px;
+    width: 110px;
+  }
   .other-skills-container {
     margin: 0 auto 40px;
   }
@@ -453,9 +457,13 @@ h5 {
     margin:10px 0;
     width: 30%;
   }
-  .other-skills img{
+  .other-skills img {
     height: 80px;
     width: 80px;
+  }
+  .other-skills img:hover {
+    height: 90px;
+    width: 90px;
   }
   
   /* Bio */
