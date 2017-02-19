@@ -409,6 +409,10 @@ h5 {
     margin-top: 25px;
     margin-bottom: 40px;
   }
+  .rover-image img:hover {
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
   .rover-text {
     width: 65%;
     margin-left: 0;
