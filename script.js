@@ -8,7 +8,7 @@ $(window).scroll(function(){
   var preBlockHeight = $('.pre-block').height();
 
   // reduce the scrolling distance in the pre-block in order to increase scrolling speed
-  var separatorScrollDist = preBlockHeight - 100;
+  var separatorScrollDist = preBlockHeight - 140;
 
   // create parallax scroll(different speed) and fade title when scrolling
   $('.title-container').css({
@@ -17,7 +17,7 @@ $(window).scroll(function(){
   });
 
   // set condition to start the scrolling effect 25% into the preblock
-  if(wScroll > (skillsPreBlockOffsetTop + preBlockHeight * 0.25)){
+  if(wScroll > (skillsPreBlockOffsetTop + preBlockHeight * 0.30)){
     $('.pre-block-1 h1').css({
       // fade out pre-block h1 when scrolling
       'opacity': (((separatorScrollDist) - (wScroll - skillsPreBlockOffsetTop)) / separatorScrollDist)  
@@ -28,7 +28,7 @@ $(window).scroll(function(){
     });
   }
 
-  if(wScroll > (blogPreBlockOffsetTop + preBlockHeight * 0.25)){
+  if(wScroll > (blogPreBlockOffsetTop + preBlockHeight * 0.30)){
     $('.pre-block-2 h1').css({
       'opacity': (((separatorScrollDist) - (wScroll - blogPreBlockOffsetTop)) / separatorScrollDist)  
     });
@@ -38,7 +38,7 @@ $(window).scroll(function(){
     });
   }
 
-  if(wScroll > (bioPreBlockOffsetTop + preBlockHeight * 0.25)){
+  if(wScroll > (bioPreBlockOffsetTop + preBlockHeight * 0.30)){
     $('.pre-block-3 h1').css({
       'opacity': (((separatorScrollDist) - (wScroll - bioPreBlockOffsetTop)) / separatorScrollDist)  
     });

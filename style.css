@@ -172,7 +172,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 300px;
+  height: 400px;
   width: 100%;
   background: url(images/background.jpg) no-repeat center;
   font-family: 'Chaparral Pro', 'Times New Roman';
@@ -181,6 +181,9 @@ a {
 .pre-block h1 {
   font-size: 3.5em;
   margin-bottom: -100px;
+}
+.pre-block-4 {
+  height: 300px;
 }
 
 /* ================================= 
