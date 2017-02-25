@@ -16,8 +16,8 @@ $(window).scroll(function(){
     'opacity': (((height) - wScroll) / height)
   });
 
-  // set condition to start the scrolling effect 25% into the preblock
-  if(wScroll > (skillsPreBlockOffsetTop + preBlockHeight * 0.30)){
+  // set condition to start the scrolling effect 40% into the preblock
+  if(wScroll > (skillsPreBlockOffsetTop + preBlockHeight * 0.40)){
     $('.pre-block-1 h1').css({
       // fade out pre-block h1 when scrolling
       'opacity': (((separatorScrollDist) - (wScroll - skillsPreBlockOffsetTop)) / separatorScrollDist)  
@@ -28,7 +28,7 @@ $(window).scroll(function(){
     });
   }
 
-  if(wScroll > (blogPreBlockOffsetTop + preBlockHeight * 0.30)){
+  if(wScroll > (blogPreBlockOffsetTop + preBlockHeight * 0.40)){
     $('.pre-block-2 h1').css({
       'opacity': (((separatorScrollDist) - (wScroll - blogPreBlockOffsetTop)) / separatorScrollDist)  
     });
@@ -38,7 +38,7 @@ $(window).scroll(function(){
     });
   }
 
-  if(wScroll > (bioPreBlockOffsetTop + preBlockHeight * 0.30)){
+  if(wScroll > (bioPreBlockOffsetTop + preBlockHeight * 0.40)){
     $('.pre-block-3 h1').css({
       'opacity': (((separatorScrollDist) - (wScroll - bioPreBlockOffsetTop)) / separatorScrollDist)  
     });
