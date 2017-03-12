@@ -415,7 +415,8 @@ h5 {
 }
 .credit-container {
   text-align: right;
-  margin: 5px; 
+  margin: 5px;
+  font-family: 'Flamenco', cursive;
 }
 
 /* ================================= 
