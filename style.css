@@ -406,9 +406,8 @@ h5 {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  margin-left: -58px;
-  margin-top: 60px;
-  font-size: 0.8em;
+  margin-left: -55px;
+  margin-top: 55px;
   font-family: 'Flamenco', cursive;
 }
 .social:hover .social-tooltip {
